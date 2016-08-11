@@ -168,7 +168,7 @@ class ServerMetadata extends Metadata
      * @throws MetadataJsonError
      * @codeCoverageIgnore
      */
-    private function getMetadataJson()
+    public function getMetadataJson()
     {
         $object = (object) array(
             'meta'     => (object) array(),
